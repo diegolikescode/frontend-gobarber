@@ -1,0 +1,11 @@
+{
+  "name": "frontend-Shave-out-of-IT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiegoPrestesGit/frontend-Shave-out-of-IT.git",
+  "author": "Diego Prestes <diegoprestes.git@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^3.4.1"
+  }
+}
