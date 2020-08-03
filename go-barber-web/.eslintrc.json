@@ -27,6 +27,7 @@
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
+    "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "no-unused-expressions": "off",
     "react-hooks/rules-of-hooks": "error",
