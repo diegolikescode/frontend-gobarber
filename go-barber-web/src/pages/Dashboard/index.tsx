@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import DayPicker from 'react-day-picker';
+import 'react-day-picker/lib/style.css';
 
 import { FiPower, FiClock } from 'react-icons/fi';
 import {
@@ -55,7 +57,6 @@ const Dashboard: React.FC = () => {
                 src="http://localhost:3333/files/dc3d92ca67804e895f0c-xqdaleriven.jpg"
                 alt="Diegão"
               />
-
               <strong>Diegão</strong>
               <span>
                 <FiClock />
@@ -78,6 +79,7 @@ const Dashboard: React.FC = () => {
                   src="http://localhost:3333/files/dc3d92ca67804e895f0c-xqdaleriven.jpg"
                   alt="Diegão"
                 />
+                <strong>Diegão</strong>
               </div>
             </Appointment>
 
@@ -92,6 +94,7 @@ const Dashboard: React.FC = () => {
                   src="http://localhost:3333/files/dc3d92ca67804e895f0c-xqdaleriven.jpg"
                   alt="Diegão"
                 />
+                <strong>Diegão</strong>
               </div>
             </Appointment>
           </Section>
@@ -110,6 +113,7 @@ const Dashboard: React.FC = () => {
                     src="http://localhost:3333/files/dc3d92ca67804e895f0c-xqdaleriven.jpg"
                     alt="Diegão"
                   />
+                  <strong>Diegão</strong>
                 </div>
               </Appointment>
 
@@ -124,12 +128,15 @@ const Dashboard: React.FC = () => {
                     src="http://localhost:3333/files/dc3d92ca67804e895f0c-xqdaleriven.jpg"
                     alt="Diegão"
                   />
+                  <strong>Diegão</strong>
                 </div>
               </Appointment>
             </Section>
           </Section>
         </Schedule>
-        <Calendar />
+        <Calendar>
+          <DayPicker />
+        </Calendar>
       </Content>
     </Container>
   );
