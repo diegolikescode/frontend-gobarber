@@ -166,6 +166,10 @@ export const Appointment = styled.div`
   display: flex;
   align-items: center;
 
+  & + div {
+    margin-top: 16px;
+  }
+
   span {
     margin-left: auto;
     display: flex;
@@ -191,11 +195,12 @@ export const Appointment = styled.div`
   strong {
     margin-left: 24px;
     color: #fff;
+    font-size: 20px;
   }
 
   img {
-    width: 80px;
-    height: 80px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
   }
 `;
